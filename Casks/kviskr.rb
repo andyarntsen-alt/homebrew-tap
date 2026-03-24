@@ -1,6 +1,6 @@
 cask "kviskr" do
-  version "0.2.1"
-  sha256 "ce09bad596bd2fb09a74bbbc7b759ac7c5415111e7edbc7b860566a3d5903185"
+  version "0.2.2"
+  sha256 "fb607dfae4df8f412c57cb4e048068ac28d240601e445098634ef7fb291580e5"
 
   url "https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v#{version}/Kviskr.dmg"
   name "Kviskr"
