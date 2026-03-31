@@ -5,7 +5,7 @@ cask "kviskr" do
   url "https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v#{version}/Kviskr.dmg"
   name "Kviskr"
   desc "Norges beste tale-til-tekst — lokalt, privat, med AI-forbedring"
-  homepage "https://github.com/andyarntsen-alt/kviskr"
+  homepage "https://kviskr.no"
 
   depends_on macos: ">= :sonoma"
 
