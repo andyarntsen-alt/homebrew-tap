@@ -7,7 +7,7 @@ cask "kviskr" do
   desc "Norges beste tale-til-tekst — lokalt, privat, med AI-forbedring"
   homepage "https://kviskr.no"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: ">= :sequoia"
 
   app "Kviskr.app"
 
