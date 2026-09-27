@@ -4,7 +4,7 @@ cask "kviskr" do
 
   url "https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v#{version}/Kviskr.dmg"
   name "Kviskr"
-  desc "Norges beste tale-til-tekst — lokalt, privat, med AI-forbedring"
+  desc "Norsk diktering og tale til tekst for Mac med lokal NB-Whisper"
   homepage "https://kviskr.no"
 
   depends_on macos: :sequoia
