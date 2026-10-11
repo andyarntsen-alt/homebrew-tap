@@ -4,9 +4,16 @@ cask "kviskr" do
 
   url "https://github.com/andyarntsen-alt/kviskr-downloads/releases/download/v#{version}/Kviskr.dmg"
   name "Kviskr"
-  desc "Norsk diktering og tale til tekst for Mac med lokal NB-Whisper"
-  homepage "https://kviskr.no"
+  desc "Norsk diktering og tale til tekst med lokal NB-Whisper"
+  homepage "https://kviskr.no/"
 
+  livecheck do
+    url "https://kviskr.no/api/appcast.xml"
+    strategy :sparkle, &:short_version
+  end
+
+  auto_updates true
+  depends_on arch: :arm64
   depends_on macos: :sequoia
 
   app "Kviskr.app"
